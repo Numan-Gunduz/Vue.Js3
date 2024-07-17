@@ -25,4 +25,4 @@ const app = Vue.createApp({
   },
 });
 
-app.mount("#Example"); //Vue js in kontrol ettiği id değer aralığı*/
+app.mount("#frontend"); //Vue js in kontrol ettiği id değer aralığı*/
