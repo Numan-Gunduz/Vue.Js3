@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conditionol Statements</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Frontende Öğrenmemiz Gerekenler</header>
+    <section id="frontend">
+      <h2>Baştan Sona</h2>
+      <div class="frontendForm">
+        <input id="inputId" type="text" v-model="skill" />
+        <button id="generalButton" v-on:click="addSkill()">Ekle</button>
+      </div>
+
+      <p v-if="skills.length===0">Herhangi Bir şey Eklemediniz</p>
+      <ul v-else-if="skills.length>0">
+        <li
+          v-for="(beceriler,index) in skills"
+          v-bind:key="index"
+          @click="deleteSkill(index)"
+        >
+          {{index}}. Elemanım {{beceriler}}
+        </li>
+      </ul>
+    </section>
+    <script src="script.js" defer></script>
+  </body>
+</html>
+<!-- v-on:click kısaltılmış hali @click ifadesidir!!! -->
