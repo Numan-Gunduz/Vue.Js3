@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue Js Eğitimi Başlangıç</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Eventler</header>
+    <section id="frontend">
+      <button id="art" v-on:click="add()">Arttır</button>
+
+      <button id="az" v-on:click="reduce()">Azalt</button>
+      <button id="art" v-on:click="addfive(5)">5 arttır</button>
+      <p id="sonuc" v-on:click="alertt()">Sonuç:{{counter}}</p>
+
+      <!-- <p>Adınız: {{name}}</p> -->
+      <p>Adınız:{{fullName}}</p>
+
+      <input v-model="name" />
+
+      <!-- type="text" v-bind:value="name" v-on:input="setName($event)"     yukarıdaki input içerisindeki  verilerin ilk hali hatasız bir şekilde çalışıyor-->
+      <button id="art" v-on:click="resetle">Resetle</button>
+<!-- fullnameComputed sadece ilgili metodun çalışmasını sağlayan bir özelliktir. syntax olarak data içerisindeki verilere benzer yazarkern fullNameComputed olarak yazılır. -->
+      <!--eğer bir link bağlaycaksak Vbind kullanmamız gerekiyor bunu da v-bind:anahtar kelimesi ile beraber yapabiliyoruz-->
+      <!-- fonkiyonu da aynı databinding gibi bağlıyoruz tek  farkı yazdıktan sonra () işlemini kullanmak   -->
+      <!-- eğer html kodlarını doğrudan burada kullanmak istersek v-html etiketini kullanmak zorundayız -->
+    </section>
+    <script src="script.js" defer></script>
+  </body>
+</html>

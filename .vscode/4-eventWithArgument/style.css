@@ -1,0 +1,51 @@
+header {
+  background-color: blueviolet;
+  color: white;
+  font-size: xx-large;
+  margin: 100px auto;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 5px 15px;
+}
+#frontend {
+  box-shadow: 0px 6px 15px;
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 10px;
+  color: darkmagenta;
+  padding: 15px;
+}
+#frontend h2 {
+  font-size: 30px;
+  border-bottom: 4px solid gray;
+}
+
+#art {
+  padding: 10px;
+  margin: 10px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  cursor: pointer;
+}
+#az {
+  padding: 10px;
+  margin: 10px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  cursor: pointer;
+}
+#sonuc {
+  margin: 15px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px;
+}

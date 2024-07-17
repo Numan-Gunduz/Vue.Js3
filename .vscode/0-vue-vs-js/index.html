@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue Js Eğitimi Başlangıç</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <br />
+    <input type="text" id="todoText" />
+
+    <button id="addBtn">Ekle</button>
+    <ul id="totoList">
+  
+    </ul> -->
+    <header>frontend de öğrenmemiz gereken bilgiler</header>
+    <section id="frontend">
+      <h2 id="a">Yol Haritası</h2>
+      <p>{{firstGoal}}</p>
+      <p>{{secondGoal}}</p>
+      <p>{{thirdGoal}}</p>
+      <a v-bind:href="MyWebSite">Web Sitem </a>
+      <p>{{ourGoal()}}</p>
+      <p v-html="instance"></p>
+
+      <!--eğer bir link bağlaycaksak Vbind kullanmamız gerekiyor bunu da v-bind:anahtar kelimesi ile beraber yapabiliyoruz-->
+      <!-- fonkiyonu da aynı databinding gibi bağlıyoruz tek  farkı yazdıktan sonra () işlemini kullanmak   -->
+       <!-- eğer html kodlarını doğrudan burada kullanmak istersek v-html etiketini kullanmak zorundayız -->
+    </section>
+    <script src="script.js" defer></script>
+  </body>
+</html>
