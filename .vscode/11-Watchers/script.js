@@ -4,12 +4,17 @@ const app = Vue.createApp({
       counter: 0,
       name: "",
       fullName:"",
+      lastName:"",
     };
   },
 
 watch :{
- name(){
-  this.fullName = this.name + " "+"Gündüzz"
+ name(value){
+  this.fullName = value + " "+this.lastName;
+ },
+
+ lastName(value){
+  this.fullName=this.name + " "+value
  }
 },
 
