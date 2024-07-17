@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example2</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Example2</header>
+    <section id="Example">
+      <button id="art" v-on:click="addTen">Arttır</button>
+      <button id="az" v-on:click="addFivee">Azalt</button>
+      <p>Sayı Değeri:{{value}}</p>
+      <p>Sonuç:{{result}}</p>
+    </section>
+    <script src="script.js" defer></script>
+  </body>
+</html>
