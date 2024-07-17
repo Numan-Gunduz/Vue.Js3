@@ -1,0 +1,67 @@
+header {
+  background-color: blueviolet;
+  color: white;
+  font-size: xx-large;
+  margin: 100px auto;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 5px 15px;
+}
+
+#frontend {
+  box-shadow: 0px 6px 15px;
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 10px;
+  color: darkmagenta;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#frontend h2 {
+  font-size: 30px;
+  border-bottom: 4px solid gray;
+}
+
+#frontend .box {
+  width: 150px;
+  height: 150px;
+  margin: 10px 3px;
+  border: 4px dashed gray;
+}
+#generalButton {
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  margin: 13px;
+
+  width: 90px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.frontendForm {
+  display: flex;
+}
+#frontendUl {
+  list-style-type: none;
+  padding: 0;
+  font-size: 25px;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 1px;
+}
+#frontend ul li {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 20px 0px;
+  border-radius: 20px;
+}
+#inputId {
+  height: 30px;
+  width: 150px;
+}
